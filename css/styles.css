@@ -1,0 +1,231 @@
+.container-principal{
+padding: 10% 13%;
+background: black;
+padding-left: 20px;
+padding-top: 50px;
+}
+
+
+.container-mitad{
+
+padding: 10% 13%;
+color: white;
+
+}
+
+.container-final{
+
+  padding: 5% 13%;
+  padding-bottom: 20px;
+  background:  black;
+
+}
+
+.footer-parrafo{
+color:grey;
+font-size: 1rem;
+
+
+}
+
+
+.footer{
+
+color:gold;
+text-align: center;
+font-size: 1rem;
+padding-top: 100px;
+}
+
+.footer-h3{
+text-align: left;
+color:gold;
+
+}
+
+.imagenes-footer{
+
+margin-right: 10px;
+padding-top: 10px;
+color:gold;
+}
+
+span{
+
+  color:gold;
+}
+
+p{
+color: black;
+font-size: 20px;
+margin-top: 20px;
+margin-right: 20px;
+}
+
+.nav-item{
+  font-family: 'Fjalla One', sans-serif;
+
+  padding-right: 60px;
+
+}
+
+.navbar-brand{
+  font-family: 'Fjalla One', sans-serif;
+
+  font-size: 1.5rem;
+margin-left: 150px;
+}
+
+a{
+
+  color: gold;
+}
+
+a:hover{
+
+color:white;
+
+}
+
+h2{
+
+  position: absolute;
+COLOR:white;
+  right: 150px;
+  top: 195px;
+}
+
+h1{
+position: absolute;
+font-size: 5rem;
+  left: 400px;
+  padding-left: 230px;
+  padding-right: 100px;
+  color: #4a4a48;
+  top: 210px;
+letter-spacing: 5px;
+}
+
+.container-twitter, .container-facebook, .container-linkedin{
+
+  margin-bottom:  30px;
+}
+
+.container-iconos{
+
+margin-top: 200px;
+
+}
+
+
+@media (max-width:1025px){
+
+h1{
+top: 120px;
+left:30px;
+font-size: 3rem;
+padding-left: 20px;
+padding-right: 30px;
+text-align: center;
+position: relative;
+}
+
+h2{
+  top:-100px;
+padding-bottom: 20px;
+left:30px;
+
+font-size: 1.3rem;
+text-align: center;
+position: relative;
+
+}
+
+.container-twitter, .container-facebook, .container-linkedin{
+
+  margin-bottom:  20px;
+  position: relative;
+  bottom: -50px;
+  margin-right: 40px;
+}
+
+.container-iconos{
+
+  margin-top: 79px;
+  margin-left: 150px;
+ display: inline-flex;
+}
+
+.navbar-brand{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.5rem;
+margin-left: 0px;
+}
+
+
+.footer-h3{
+text-align: center;
+color:gold;
+
+}
+
+.imagenes-footer{
+
+margin-right: 10px;
+padding-top: 10px;
+color:gold;
+}
+
+.footer-parrafo{
+color:grey;
+font-size: 1rem;
+text-align: center;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.clase{
+
+width:200px;
+height: 300px;
+}
+
+
+@media (min-width:1028px){
+.typewriter h2 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space:nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .7s step-end infinite;
+}
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 13% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
